@@ -34,20 +34,22 @@ section {
 /* common style end */
 
 /* header section start */
-.banner-design {
 
-    height: 100vh;
+.banner-design {
+    height: 110vh;
     width: 100%;
+    margin-bottom: 100px;
     background-image: url(../images/banner/banner3.png);
-    background-size: contain;
-    /* position: relative; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
 .banner-description {
     position: absolute;
     top: 180px;
-    right: 230px;
+    right: 180px;
 }
 
 .banner-design h1 {
@@ -94,7 +96,6 @@ section {
 
 .previous-yr-text-description {
     width: 50%;
-    /* border: 1px solid red; */
     padding: 30px;
 }
 
@@ -107,6 +108,7 @@ section {
 }
 
 /* previous year section end */
+
 /* New Year celebration bonus section with flexbox start */
 .flex-card {
     height: 50vh;
@@ -174,8 +176,6 @@ h4 {
     display: flex;
     flex-direction: column;
     padding-top: 16px;
-    /* border: 1px solid red; */
-    /* justify-content: center; */
     align-items: center;
     margin-left: 20px;
     box-shadow: 10px 10px 5px lightgray;
