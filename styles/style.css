@@ -75,7 +75,6 @@ section {
 
 /* previous year section start */
 .previous-yr-section {
-    /* border: 2px solid red; */
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -154,10 +153,6 @@ section {
 
 /* planning section start */
 .plans {
-    /* margin-bottom: 100px; */
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
     text-align: center;
     color: #151414;
 }
@@ -217,11 +212,11 @@ h4 {
 /* Footer section start */
 .footer-section {
     display: flex;
-    padding-top: 130px;
+    padding-top: 100px;
     justify-content: space-evenly;
     /* align-items: center; */
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background: #151414;
     font-family: 'Lobster', cursive;
 }
