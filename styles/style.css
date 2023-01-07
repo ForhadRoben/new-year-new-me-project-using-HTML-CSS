@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
+/* header section start */
 .banner-design {
     height: 100vh;
     width: 100%;
     background-image: url(../images/banner/banner3.png);
     background-size: contain;
-    position: relative;
+    /* position: relative; */
 
 }
 
@@ -44,6 +45,55 @@
     color: #005FAC;
     border-radius: 5px;
     border-style: none;
-    position: fixed;
-    right: 230px;
+    position: absolute;
+    left: 250px;
 }
+
+/* header section end */
+section {
+    margin-bottom: 100px;
+}
+
+/* previous year section start */
+.previous-yr-section {
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous-yr-img-description {
+    width: 50%;
+    padding: 20px;
+}
+
+.previous-yr-img-description>img {
+    width: 100%;
+
+}
+
+.previous-yr-text-description {
+    width: 50%;
+    /* border: 1px solid red; */
+    padding: 30px;
+}
+
+.previous-yr-text-description h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.previous-yr-text-description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+/* previous year section end */
